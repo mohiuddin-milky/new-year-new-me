@@ -1,0 +1,170 @@
+* {
+    margin: 0 auto;
+    max-width: 1600px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header text */
+
+.header {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    padding: 216px 230px 24px 830px;
+    text-align: right;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 230px 32px 875px;
+    text-align: right;
+}
+
+.btn-primary {
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 226px 160px 1210px;
+}
+
+/* section failure */
+
+.failure {
+    display: flex;
+    gap: 90px;
+    background-color: white;
+    margin: 140px 230px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 30px;
+    padding-top: 210px;
+    padding-bottom: 20px;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.failure-list {
+    display: list-item;
+    list-style: none;
+}
+
+.y-failure {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    list-style: none;
+    padding-left: 5px;
+}
+
+/* my plans styles */
+
+.my-plans {
+    margin-top: 145px;
+    margin-bottom: 50;
+    text-align: center;
+    margin: 0 230px 120px;
+}
+
+.mp-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 80px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-top: 16px;
+}
+
+/* motivation styles */
+
+.motivation {
+    background-repeat: no-repeat;
+    margin-left: 230px;
+    margin-right: 230px;
+    height: 300px;
+    background-image: url(../images/watch.png), linear-gradient(90deg, #f0571baf 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    background-blend-mode: overlay;
+}
+
+.motivation-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 60px 600px 24px 64px;
+}
+
+.btn-secondary {
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: orangered;
+    text-align: center;
+    margin: 0px 915px 60px 65px;
+    text-decoration: orangered;
+}
+
+/* footer styles */
+
+
+.footer {
+    display: flex;
+    margin-top: 130px;
+    background: #151414;
+    color: #F8F8F8;
+}
+
+.footer-div1 {
+    padding-top: 130px;
+    padding-left: 230px;
+    padding-bottom: 130px;
+    padding-right: 330px;
+}
+
+.footer-title1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-div2 {
+    padding: 130px 230px 245px 330px;
+}
